@@ -4,7 +4,7 @@ public class AmazonSearchPage extends BasePage {
 
     private String searchBox = "//input[@id='twotabsearchtextbox']";
     private String searchButton = "//input[@id='nav-search-submit-button']";
-    private String thirdResult = "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[3]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h2[1]/a[1]/span[1]";
+    private String thirdResult = "/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[5]/div/div/span/div/div/div/div[2]/div/div/div[1]/a/h2/span";
     private String addToCartButton = "//input[@id='add-to-cart-button']";
     private String addedMessageText = "//*[contains(text(),'Agregado al carrito')]";
 
